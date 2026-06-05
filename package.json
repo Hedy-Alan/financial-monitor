@@ -1,0 +1,17 @@
+{
+  "name": "financial-monitor",
+  "version": "1.0.0",
+  "description": "📈 桌面财经面板 — A股/港股/美股/外汇/商品/加密货币实时行情",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js --open",
+    "dev": "node server.js"
+  },
+  "keywords": ["finance","stock","dashboard","realtime","a-shares","forex","crypto"],
+  "author": "Hedy-Alan",
+  "license": "MIT",
+  "dependencies": {
+    "iconv-lite": "^0.6.3",
+    "ws": "^8.18.0"
+  }
+}
